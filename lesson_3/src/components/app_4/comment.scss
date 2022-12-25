@@ -1,0 +1,26 @@
+.comment {
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    align-items: center;
+}
+
+
+.comment__text {
+    margin: 20px;
+}
+
+.user-info {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
