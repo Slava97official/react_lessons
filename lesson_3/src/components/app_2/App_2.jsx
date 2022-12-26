@@ -1,3 +1,4 @@
+// Простые логические операторы передающие результат в рендер
 import React from "react";
 import './style.scss'
 

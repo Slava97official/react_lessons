@@ -1,8 +1,7 @@
+// Принимаем значения из index для рендеринга, а также импортируем другую функцию передав в нее значения из index
 import React from "react";
 import UserInfo from './Comment-user-info'
 import './comment.scss'
-
-
 
 
 function Comment(props) { // используем UserInfo и передаем в него аргументы

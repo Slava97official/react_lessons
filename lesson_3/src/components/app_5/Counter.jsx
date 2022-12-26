@@ -1,3 +1,4 @@
+// Обновление состояния по таймауту
 import React, { Component } from "react";
 import './style.scss'
 

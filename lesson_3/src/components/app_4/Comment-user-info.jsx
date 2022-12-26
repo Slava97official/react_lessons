@@ -1,3 +1,4 @@
+// Принимаем значения из Comments и передаем отредаренный html в Comments
 import React from "react"
 import './comment.scss'
 

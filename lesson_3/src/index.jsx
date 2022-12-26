@@ -6,6 +6,7 @@ import App from './App';
 import App_2 from './components/app_2/App_2'
 import Comment from './components/app_4/Comment'
 import Counter from './components/app_5/Counter'
+import Handlers from './components/app_6/handlers'
 
 // направление в DOM
 const rootElement = document.querySelector('#root');
@@ -73,3 +74,5 @@ ReactDOM.render(<App_3 name="Bob" age={17}/>, rootApp_3)
 ReactDOM.render(<RootApp_3_class name="Bob" age={17}/>, rootApp_3_class)
 ReactDOM.render(AppComment(), comment) // Рендер функции компонента
 ReactDOM.render(<Counter />, counter)
+
+ReactDOM.render(<Handlers />, document.querySelector('#handlers'))
